@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297D3BE31EBB54F000DB5B92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 297D3BE21EBB54F000DB5B92 /* main.m */; };
+		297D3BE61EBB54F000DB5B92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 297D3BE51EBB54F000DB5B92 /* AppDelegate.m */; };
+		297D3BE91EBB54F000DB5B92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297D3BE81EBB54F000DB5B92 /* ViewController.m */; };
+		297D3BEC1EBB54F000DB5B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297D3BEA1EBB54F000DB5B92 /* Main.storyboard */; };
+		297D3BEE1EBB54F000DB5B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297D3BED1EBB54F000DB5B92 /* Assets.xcassets */; };
+		297D3BF11EBB54F000DB5B92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297D3BEF1EBB54F000DB5B92 /* LaunchScreen.storyboard */; };
+		297D3BFC1EBB54F000DB5B92 /* CMAnticountButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297D3BFB1EBB54F000DB5B92 /* CMAnticountButtonTests.m */; };
+		297D3C071EBB54F000DB5B92 /* CMAnticountButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297D3C061EBB54F000DB5B92 /* CMAnticountButtonUITests.m */; };
+		297D3C201EBB571900DB5B92 /* CMAntiCountButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 297D3C1F1EBB571900DB5B92 /* CMAntiCountButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		297D3BF81EBB54F000DB5B92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297D3BD61EBB54F000DB5B92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297D3BDD1EBB54F000DB5B92;
+			remoteInfo = CMAnticountButton;
+		};
+		297D3C031EBB54F000DB5B92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297D3BD61EBB54F000DB5B92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297D3BDD1EBB54F000DB5B92;
+			remoteInfo = CMAnticountButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297D3BDE1EBB54F000DB5B92 /* CMAnticountButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMAnticountButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		297D3BE21EBB54F000DB5B92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		297D3BE41EBB54F000DB5B92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		297D3BE51EBB54F000DB5B92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		297D3BE71EBB54F000DB5B92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		297D3BE81EBB54F000DB5B92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		297D3BEB1EBB54F000DB5B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		297D3BED1EBB54F000DB5B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		297D3BF01EBB54F000DB5B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		297D3BF21EBB54F000DB5B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297D3BF71EBB54F000DB5B92 /* CMAnticountButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMAnticountButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		297D3BFB1EBB54F000DB5B92 /* CMAnticountButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAnticountButtonTests.m; sourceTree = "<group>"; };
+		297D3BFD1EBB54F000DB5B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297D3C021EBB54F000DB5B92 /* CMAnticountButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMAnticountButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		297D3C061EBB54F000DB5B92 /* CMAnticountButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAnticountButtonUITests.m; sourceTree = "<group>"; };
+		297D3C081EBB54F000DB5B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297D3C1E1EBB571900DB5B92 /* CMAntiCountButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAntiCountButton.h; sourceTree = "<group>"; };
+		297D3C1F1EBB571900DB5B92 /* CMAntiCountButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAntiCountButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		297D3BDB1EBB54F000DB5B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297D3BF41EBB54F000DB5B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297D3BFF1EBB54F000DB5B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297D3BD51EBB54F000DB5B92 = {
+			isa = PBXGroup;
+			children = (
+				297D3BE01EBB54F000DB5B92 /* CMAnticountButton */,
+				297D3BFA1EBB54F000DB5B92 /* CMAnticountButtonTests */,
+				297D3C051EBB54F000DB5B92 /* CMAnticountButtonUITests */,
+				297D3BDF1EBB54F000DB5B92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		297D3BDF1EBB54F000DB5B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297D3BDE1EBB54F000DB5B92 /* CMAnticountButton.app */,
+				297D3BF71EBB54F000DB5B92 /* CMAnticountButtonTests.xctest */,
+				297D3C021EBB54F000DB5B92 /* CMAnticountButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		297D3BE01EBB54F000DB5B92 /* CMAnticountButton */ = {
+			isa = PBXGroup;
+			children = (
+				297D3C1D1EBB56E000DB5B92 /* CMAntiButton */,
+				297D3BE41EBB54F000DB5B92 /* AppDelegate.h */,
+				297D3BE51EBB54F000DB5B92 /* AppDelegate.m */,
+				297D3BE71EBB54F000DB5B92 /* ViewController.h */,
+				297D3BE81EBB54F000DB5B92 /* ViewController.m */,
+				297D3BEA1EBB54F000DB5B92 /* Main.storyboard */,
+				297D3BED1EBB54F000DB5B92 /* Assets.xcassets */,
+				297D3BEF1EBB54F000DB5B92 /* LaunchScreen.storyboard */,
+				297D3BF21EBB54F000DB5B92 /* Info.plist */,
+				297D3BE11EBB54F000DB5B92 /* Supporting Files */,
+			);
+			path = CMAnticountButton;
+			sourceTree = "<group>";
+		};
+		297D3BE11EBB54F000DB5B92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				297D3BE21EBB54F000DB5B92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		297D3BFA1EBB54F000DB5B92 /* CMAnticountButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				297D3BFB1EBB54F000DB5B92 /* CMAnticountButtonTests.m */,
+				297D3BFD1EBB54F000DB5B92 /* Info.plist */,
+			);
+			path = CMAnticountButtonTests;
+			sourceTree = "<group>";
+		};
+		297D3C051EBB54F000DB5B92 /* CMAnticountButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				297D3C061EBB54F000DB5B92 /* CMAnticountButtonUITests.m */,
+				297D3C081EBB54F000DB5B92 /* Info.plist */,
+			);
+			path = CMAnticountButtonUITests;
+			sourceTree = "<group>";
+		};
+		297D3C1D1EBB56E000DB5B92 /* CMAntiButton */ = {
+			isa = PBXGroup;
+			children = (
+				297D3C1E1EBB571900DB5B92 /* CMAntiCountButton.h */,
+				297D3C1F1EBB571900DB5B92 /* CMAntiCountButton.m */,
+			);
+			name = CMAntiButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		297D3BDD1EBB54F000DB5B92 /* CMAnticountButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297D3C0B1EBB54F000DB5B92 /* Build configuration list for PBXNativeTarget "CMAnticountButton" */;
+			buildPhases = (
+				297D3BDA1EBB54F000DB5B92 /* Sources */,
+				297D3BDB1EBB54F000DB5B92 /* Frameworks */,
+				297D3BDC1EBB54F000DB5B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMAnticountButton;
+			productName = CMAnticountButton;
+			productReference = 297D3BDE1EBB54F000DB5B92 /* CMAnticountButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		297D3BF61EBB54F000DB5B92 /* CMAnticountButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297D3C0E1EBB54F000DB5B92 /* Build configuration list for PBXNativeTarget "CMAnticountButtonTests" */;
+			buildPhases = (
+				297D3BF31EBB54F000DB5B92 /* Sources */,
+				297D3BF41EBB54F000DB5B92 /* Frameworks */,
+				297D3BF51EBB54F000DB5B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297D3BF91EBB54F000DB5B92 /* PBXTargetDependency */,
+			);
+			name = CMAnticountButtonTests;
+			productName = CMAnticountButtonTests;
+			productReference = 297D3BF71EBB54F000DB5B92 /* CMAnticountButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		297D3C011EBB54F000DB5B92 /* CMAnticountButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297D3C111EBB54F000DB5B92 /* Build configuration list for PBXNativeTarget "CMAnticountButtonUITests" */;
+			buildPhases = (
+				297D3BFE1EBB54F000DB5B92 /* Sources */,
+				297D3BFF1EBB54F000DB5B92 /* Frameworks */,
+				297D3C001EBB54F000DB5B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297D3C041EBB54F000DB5B92 /* PBXTargetDependency */,
+			);
+			name = CMAnticountButtonUITests;
+			productName = CMAnticountButtonUITests;
+			productReference = 297D3C021EBB54F000DB5B92 /* CMAnticountButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297D3BD61EBB54F000DB5B92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shawn;
+				TargetAttributes = {
+					297D3BDD1EBB54F000DB5B92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QJ6SFC8N6W;
+						ProvisioningStyle = Automatic;
+					};
+					297D3BF61EBB54F000DB5B92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QJ6SFC8N6W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 297D3BDD1EBB54F000DB5B92;
+					};
+					297D3C011EBB54F000DB5B92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QJ6SFC8N6W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 297D3BDD1EBB54F000DB5B92;
+					};
+				};
+			};
+			buildConfigurationList = 297D3BD91EBB54F000DB5B92 /* Build configuration list for PBXProject "CMAnticountButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 297D3BD51EBB54F000DB5B92;
+			productRefGroup = 297D3BDF1EBB54F000DB5B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				297D3BDD1EBB54F000DB5B92 /* CMAnticountButton */,
+				297D3BF61EBB54F000DB5B92 /* CMAnticountButtonTests */,
+				297D3C011EBB54F000DB5B92 /* CMAnticountButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		297D3BDC1EBB54F000DB5B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297D3BF11EBB54F000DB5B92 /* LaunchScreen.storyboard in Resources */,
+				297D3BEE1EBB54F000DB5B92 /* Assets.xcassets in Resources */,
+				297D3BEC1EBB54F000DB5B92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297D3BF51EBB54F000DB5B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297D3C001EBB54F000DB5B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		297D3BDA1EBB54F000DB5B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297D3BE91EBB54F000DB5B92 /* ViewController.m in Sources */,
+				297D3C201EBB571900DB5B92 /* CMAntiCountButton.m in Sources */,
+				297D3BE61EBB54F000DB5B92 /* AppDelegate.m in Sources */,
+				297D3BE31EBB54F000DB5B92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297D3BF31EBB54F000DB5B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297D3BFC1EBB54F000DB5B92 /* CMAnticountButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297D3BFE1EBB54F000DB5B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297D3C071EBB54F000DB5B92 /* CMAnticountButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297D3BF91EBB54F000DB5B92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297D3BDD1EBB54F000DB5B92 /* CMAnticountButton */;
+			targetProxy = 297D3BF81EBB54F000DB5B92 /* PBXContainerItemProxy */;
+		};
+		297D3C041EBB54F000DB5B92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297D3BDD1EBB54F000DB5B92 /* CMAnticountButton */;
+			targetProxy = 297D3C031EBB54F000DB5B92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		297D3BEA1EBB54F000DB5B92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297D3BEB1EBB54F000DB5B92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		297D3BEF1EBB54F000DB5B92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297D3BF01EBB54F000DB5B92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		297D3C091EBB54F000DB5B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		297D3C0A1EBB54F000DB5B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		297D3C0C1EBB54F000DB5B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = CMAnticountButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.CMAnticountButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		297D3C0D1EBB54F000DB5B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = CMAnticountButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.CMAnticountButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		297D3C0F1EBB54F000DB5B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = CMAnticountButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.CMAnticountButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMAnticountButton.app/CMAnticountButton";
+			};
+			name = Debug;
+		};
+		297D3C101EBB54F000DB5B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = CMAnticountButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.CMAnticountButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMAnticountButton.app/CMAnticountButton";
+			};
+			name = Release;
+		};
+		297D3C121EBB54F000DB5B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = CMAnticountButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.CMAnticountButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CMAnticountButton;
+			};
+			name = Debug;
+		};
+		297D3C131EBB54F000DB5B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = CMAnticountButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.CMAnticountButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CMAnticountButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297D3BD91EBB54F000DB5B92 /* Build configuration list for PBXProject "CMAnticountButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297D3C091EBB54F000DB5B92 /* Debug */,
+				297D3C0A1EBB54F000DB5B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297D3C0B1EBB54F000DB5B92 /* Build configuration list for PBXNativeTarget "CMAnticountButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297D3C0C1EBB54F000DB5B92 /* Debug */,
+				297D3C0D1EBB54F000DB5B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		297D3C0E1EBB54F000DB5B92 /* Build configuration list for PBXNativeTarget "CMAnticountButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297D3C0F1EBB54F000DB5B92 /* Debug */,
+				297D3C101EBB54F000DB5B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		297D3C111EBB54F000DB5B92 /* Build configuration list for PBXNativeTarget "CMAnticountButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297D3C121EBB54F000DB5B92 /* Debug */,
+				297D3C131EBB54F000DB5B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 297D3BD61EBB54F000DB5B92 /* Project object */;
+}
