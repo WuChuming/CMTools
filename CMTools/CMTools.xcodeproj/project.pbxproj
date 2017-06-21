@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		294337BE1EFA478A00E6EAAD /* CMMarcosHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMMarcosHeader.h; sourceTree = "<group>"; };
 		297D3C2A1EBB6A0E00DB5B92 /* CMTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		297D3C2E1EBB6A0E00DB5B92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		297D3C301EBB6A0E00DB5B92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 				297D3C3B1EBB6A0E00DB5B92 /* LaunchScreen.storyboard */,
 				297D3C3E1EBB6A0E00DB5B92 /* Info.plist */,
 				297D3C2D1EBB6A0E00DB5B92 /* Supporting Files */,
+				294337BE1EFA478A00E6EAAD /* CMMarcosHeader.h */,
 			);
 			path = CMTools;
 			sourceTree = "<group>";
@@ -516,6 +518,7 @@
 				297D3C591EBB6A0E00DB5B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		297D3C5A1EBB6A0E00DB5B92 /* Build configuration list for PBXNativeTarget "CMToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				297D3C5C1EBB6A0E00DB5B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		297D3C5D1EBB6A0E00DB5B92 /* Build configuration list for PBXNativeTarget "CMToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				297D3C5F1EBB6A0E00DB5B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
